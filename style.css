@@ -1,1 +1,52 @@
+.navbar {
+    background-color: #7393b3;
+    overflow: hidden;
+    margin: 1rem 0px 1rem 1rem;
+    font-size: 1.6rem;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+}
 
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #cea5c4;
+    color: black;
+}
+
+body {
+    text-align: center;
+    background-color: #7393b3;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: system-ui;
+}
+
+p {
+    font-size: 22px;
+    font-family: system-ui;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+input[type="submit"] {
+    background: #cea5c4;
+    color: white;
+    font-family: system-ui;
+}
